@@ -32,5 +32,34 @@ public class Arithmetic
         System.out.println("result :" +result); 
     
     }
+    public enum MathOperator { PLUS, MINUS, TIMES, Divide}; 
+
+   
+
+    public static double claculator(double num1, double num2, MathOperator op)
+    {
+        double num3;
+
+        switch (op)
+        {
+            case PLUS:
+                num3 = num1 + num2;
+                return num3;
+            case MINUS:
+                num3 = num1 - num2;
+                return num3;
+            case TIMES:
+                num3 = num1 * num2;
+                return num3;
+            case Divide:
+                num3 = num1 / num2;
+                return num3;
+           //add default switch case for error: not all code paths return a value  bla bla..
+            default:
+                return 0;
+        }
+
+    }
 }
+
 
