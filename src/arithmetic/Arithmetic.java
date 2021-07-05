@@ -36,7 +36,7 @@ public class Arithmetic
 
    
 
-    public static double claculator(double num1, double num2, MathOperator op)
+    public static double calculator(double num1, double num2, MathOperator op)
     {
         double num3;
 
