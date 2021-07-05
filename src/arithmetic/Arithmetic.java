@@ -26,9 +26,9 @@ public class Arithmetic
        
         ArithmeticBase r= new ArithmeticBase();
         Scanner in= new Scanner(System.in);
-        int n= in.nextInt();
+        int N= in.nextInt();
         int m= in.nextInt();
-        double result = r.calculate(m,n);
+        double result = r.calculate(m,N);
         System.out.println("result :" +result); 
     
     }
